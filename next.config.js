@@ -1,9 +1,14 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+  outputFileTracingIncludes: {
+    '/*': ['./data/**/*'],
+  },
+
   images: {
     domains: ['localhost'],
     formats: ['image/webp', 'image/avif'],
   },
+
   async headers() {
     return [
       {
