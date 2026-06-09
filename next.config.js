@@ -1,7 +1,15 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   outputFileTracingIncludes: {
-    '/*': ['./data/**/*'],
+    '/admin/dashboard': ['./data/**/*'],
+    '/admin/about': ['./data/**/*'],
+    '/admin/contact-info': ['./data/**/*'],
+    '/admin/hero': ['./data/**/*'],
+    '/admin/hours': ['./data/**/*'],
+    '/admin/legal': ['./data/**/*'],
+    '/admin/seo': ['./data/**/*'],
+    '/admin/services': ['./data/**/*'],
+    '/api/**/*': ['./data/**/*']
   },
 
   images: {
