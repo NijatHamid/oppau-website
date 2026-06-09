@@ -1,0 +1,40 @@
+{
+  "global": {
+    "siteTitle": "Augenarztpraxis Oppau",
+    "defaultOgImage": "/uploads/og-default.jpg",
+    "analyticsId": "",
+    "gscVerification": ""
+  },
+  "pages": {
+    "/": {
+      "title": "Augenarztpraxis Oppau | Chashchina & Kollegen | Ludwigshafen",
+      "description": "Ihre Augenarztpraxis in Ludwigshafen-Oppau. Modernste Diagnostik, Laserbehandlung, ambulante Operationen. Jetzt online Termin buchen!",
+      "ogImage": ""
+    },
+    "/uber-uns": {
+      "title": "Über uns | Augenarztpraxis Oppau Ludwigshafen",
+      "description": "Lernen Sie unser erfahrenes Team der Augenarztpraxis Oppau kennen. Moderne Praxis, umfassende augenärztliche Versorgung in Ludwigshafen.",
+      "ogImage": ""
+    },
+    "/leistungen": {
+      "title": "Leistungen & Ausstattung | Augenarztpraxis Oppau",
+      "description": "OCT, Glaukom-Diagnostik, Laserbehandlung, Pachymetrie und mehr. Modernste Augenheilkunde in Ludwigshafen-Oppau.",
+      "ogImage": ""
+    },
+    "/kontakt": {
+      "title": "Kontakt & Terminvereinbarung | Augenarztpraxis Oppau",
+      "description": "Vereinbaren Sie Ihren Termin in der Augenarztpraxis Oppau. Tel: 0621/62 95 120 oder online über Doctolib.",
+      "ogImage": ""
+    },
+    "/impressum": {
+      "title": "Impressum | Augenarztpraxis Oppau",
+      "description": "Impressum der Augenarztpraxis Oppau – Ekaterina Chashchina & Kollegen, Horst-Schork-Str. 84, 67069 Ludwigshafen.",
+      "ogImage": ""
+    },
+    "/datenschutz": {
+      "title": "Datenschutzerklärung | Augenarztpraxis Oppau",
+      "description": "Datenschutzerklärung der Augenarztpraxis Oppau gemäß DSGVO.",
+      "ogImage": ""
+    }
+  }
+}

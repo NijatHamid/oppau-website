@@ -1,0 +1,26 @@
+[
+  {
+    "id": "1",
+    "image": "/uploads/7a838cd2-13d2-4b62-8ca9-0bd4b15d6c6d.jpg",
+    "imageAlt": "Augenarztpraxis Oppau - Moderne Praxisräume",
+    "title": "Augenarztpraxis Oppau",
+    "subtitle": "Ekaterina Chashchina & Kollegen",
+    "order": 1
+  },
+  {
+    "id": "2",
+    "image": "/uploads/9c84a759-69f5-4bf5-ad6d-b9d76e18ebca.jpg",
+    "imageAlt": "Modernste Augenheilkunde in Ludwigshafen",
+    "title": "Ihre Augengesundheit",
+    "subtitle": "in besten Händen",
+    "order": 2
+  },
+  {
+    "id": "3",
+    "image": "/uploads/abfd144d-6928-4cb8-825b-51c700a892ed.jpg",
+    "imageAlt": "OCT und moderne Diagnostik",
+    "title": "Modernste Diagnostik",
+    "subtitle": "für Ihre Sehgesundheit",
+    "order": 3
+  }
+]

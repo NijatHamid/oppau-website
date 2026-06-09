@@ -1,0 +1,9 @@
+[
+  { "day": "Montag", "active": true, "morning": { "open": "08:00", "close": "12:00" }, "afternoon": { "open": "13:00", "close": "17:00" } },
+  { "day": "Dienstag", "active": true, "morning": { "open": "08:00", "close": "12:00" }, "afternoon": { "open": "13:00", "close": "17:00" } },
+  { "day": "Mittwoch", "active": true, "morning": { "open": "08:00", "close": "12:00" }, "afternoon": null },
+  { "day": "Donnerstag", "active": true, "morning": { "open": "08:00", "close": "12:00" }, "afternoon": { "open": "13:00", "close": "17:00" } },
+  { "day": "Freitag", "active": true, "morning": { "open": "08:00", "close": "12:00" }, "afternoon": null },
+  { "day": "Samstag", "active": false, "morning": null, "afternoon": null },
+  { "day": "Sonntag", "active": false, "morning": null, "afternoon": null }
+]

@@ -1,0 +1,21 @@
+{
+  "haupttext": "<p>Willkommen in der Augenarztpraxis Oppau, Ihrer ersten Anlaufstelle für alle augenärztlichen Untersuchungen.</p><p>Unsere erfahrenen und qualifizierten Fachärzte bieten die gesamte Palette der konservativen Augenheilkunde inkl. Laserbehandlung sowie ambulante Operationen wie beispielsweise Katarakt-Op, intravitreale Injektionen, lidchirurgische Eingriffe vor Ort an.</p><p>Wir sind umgezogen und befinden uns nun im neu gebauten MediCenter Oppau in der Horst-Schork-Straße 84.</p>",
+  "praxistext": "<p>Wir bieten eine umfassende Palette von Diagnose- und Behandlungsmöglichkeiten für Augenkrankheiten an und erweitern unser diagnostisches und therapeutisches Angebot fortlaufend.</p><p>Unsere Praxis wurde grundlegend neu eingerichtet. Die Ausstattung befindet sich auf dem aktuellsten technischen Stand.</p><p>Unser erfahrenes Team von Ärzten und medizinischem Personal ist bestrebt, Ihnen die bestmögliche augenärztliche Versorgung zu bieten. Wir legen großen Wert auf eine ganzheitliche Betreuung und nehmen uns ausreichend Zeit, um auf Ihre individuellen Bedürfnisse einzugehen.</p>",
+  "geschichte": "<p>Im April 2023 haben wir die Praxis von Herrn Gossmann übernommen und grundlegend erneuert. Seitdem haben wir kontinuierlich in modernste Geräte und die bestmögliche Versorgung unserer Patientinnen und Patienten investiert.</p>",
+  "team": [
+    {
+      "id": "1",
+      "name": "Ekaterina Chashchina",
+      "titel": "Fachärztin für Augenheilkunde",
+      "bio": "Leitende Ärztin der Augenarztpraxis Oppau.",
+      "foto": "",
+      "order": 1
+    }
+  ],
+  "sprachen": [
+    { "flag": "🇩🇪", "name": "Deutsch", "hinweis": "" },
+    { "flag": "🇷🇺", "name": "Russisch", "hinweis": "" },
+    { "flag": "🇬🇧", "name": "Englisch", "hinweis": "" },
+    { "flag": "🇹🇷", "name": "Türkisch", "hinweis": "Montag, Dienstag, Donnerstag – nur vormittags" }
+  ]
+}

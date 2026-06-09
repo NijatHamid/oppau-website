@@ -1,0 +1,92 @@
+[
+  {
+    "id": "1",
+    "title": "Berührungslose Augendruckmessung",
+    "subtitle": "Non-Contact-Tonometrie",
+    "image": "/uploads/0f24fe3f-14ca-4e9f-9f09-4fbe59a9a335.jpg",
+    "imageAlt": "Non-Contact-Tonometer Gerät",
+    "description": "Das Non-Contact-Tonometer ermöglicht eine berührungslose Augeninnendruckmessung mittels Luftstoß. Durch den Verzicht auf einen direkten Kontakt mit der Hornhaut kann auf eine Oberflächenanästhesie verzichtet werden. Außerdem wird die Gefahr für mechanische Verletzungen der Oberfläche oder Infektionen des Auges reduziert.",
+    "active": true,
+    "order": 1
+  },
+  {
+    "id": "2",
+    "title": "Optische Kohärenztomographie",
+    "subtitle": "OCT",
+    "image": "/uploads/be967a7b-5c96-4c04-a281-c01225a5fa5d.jpg",
+    "imageAlt": "OCT Gerät für Netzhautuntersuchung",
+    "description": "Mittels der optischen Kohärenztomographie kann berührungslos in Sekundenschnelle ein Schnittbild der Netzhaut angefertigt und so sämtliche Schichten der Retina beurteilt werden. Dies ist eine wichtige Untersuchungsmethode zur frühzeitigen Erkennung von Veränderungen z.B. bei Makuladegeneration, diabetischer Retinopathie und anderen Netzhauterkrankungen. Auch Veränderungen durch den Grünen Star (Glaukom) können hiermit frühzeitig erfasst werden (RNFL-Messung).",
+    "active": true,
+    "order": 2
+  },
+  {
+    "id": "3",
+    "title": "Gesichtsfeld / Perimetrie",
+    "subtitle": "Gesichtsfelduntersuchung",
+    "image": "/uploads/c0afbe6a-83f6-4758-a5a4-81b22d6f98cd.jpg",
+    "imageAlt": "Perimetrie Gerät",
+    "description": "Unser hochmodernes Gerät bietet alle gängigen statischen Tests sowie eine halbautomatische kinetische Goldmann-Perimetrie. Je nach Fragestellung kann eine komplette Gesichtsfelduntersuchung in nur zwei bis vier Minuten durchgeführt werden. Dadurch können langwierige und ermüdende Untersuchungen vermieden werden.",
+    "active": true,
+    "order": 3
+  },
+  {
+    "id": "4",
+    "title": "Nachstar-Laser",
+    "subtitle": "YAG-Kapsulotomie",
+    "image": "/uploads/154a0eab-8957-47ea-b14d-02038b4f70a0.jpg",
+    "imageAlt": "YAG-Laser Gerät",
+    "description": "Mit dem YAG-Laser kann der Nachstar nach Weitstellen der Pupille innerhalb weniger Minuten ambulant und schmerzfrei entfernt werden.",
+    "active": true,
+    "order": 4
+  },
+  {
+    "id": "5",
+    "title": "Glaukom-Laser",
+    "subtitle": "SLT & YAG-Iridotomie",
+    "image": "/uploads/5a359e6a-4602-4eca-88fa-72a2cd4269a2.jpg",
+    "imageAlt": "Glaukom Laser Behandlung",
+    "description": "Glaukom-Patienten bieten wir eine besonders schonende Laserbehandlung an. Bei der sogenannten Selektiven Laser Trabekuloplastik (SLT) wird der Abflußkanal des Auges mittels Laser narbenfrei behandelt. Der Eingriff ist schmerzfrei, ambulant und dauert nur wenige Minuten. Er kann bei Bedarf mehrfach wiederholt werden. Die YAG-Iridotomie ist eine Behandlungsmöglichkeit des Grünen Stars bei engem Kammerwinkel. Dabei wird eine kleine Öffnung in die Regenbogenhaut gelasert.",
+    "active": true,
+    "order": 5
+  },
+  {
+    "id": "6",
+    "title": "Hornhaut-Topographie",
+    "subtitle": "Hornhautvermessung",
+    "image": "/uploads/7e3646dc-1af3-4733-b4ac-6cb918f64c04.jpg",
+    "imageAlt": "Hornhaut-Topographie Gerät",
+    "description": "Durch eine berührungslose Vermessung der Vorder- und Rückseite kann eine präzise Art Landkarte und farbiges Höhenrelief der Hornhaut erstellt werden. Die Methode dient zur Erkennung und Verlaufskontrolle krankhafter Veränderungen wie beispielsweise des Keratokonus.",
+    "active": true,
+    "order": 6
+  },
+  {
+    "id": "7",
+    "title": "Pachymetrie",
+    "subtitle": "Messung der Hornhautdicke",
+    "image": "/uploads/32574e1c-a7dc-4132-8e1e-ab2382e19fc2.jpg",
+    "imageAlt": "Pachymetrie Messung",
+    "description": "Die Dicke der Hornhaut wird optisch und berührungslos gemessen. Je nach Abweichung vom Durchschnittswert kann der Augeninnendruck entsprechend korrigiert werden, da dieser bei dünner Hornhaut falsch niedrig und bei dicker Hornhaut falsch hoch gemessen wird. Dies ist insbesondere im Rahmen der Glaukomdiagnostik und -behandlung ein wichtiges Kriterium.",
+    "active": true,
+    "order": 7
+  },
+  {
+    "id": "8",
+    "title": "Fotodokumentation",
+    "subtitle": "Augenfotografie",
+    "image": "/uploads/e24aee2f-3de9-4d4a-bac7-efd2b6ae13d6.jpg",
+    "imageAlt": "Augenfotografie Gerät",
+    "description": "Durch Fotoaufnahmen im vorderen Bereich des Auges (Lid, Bindehaut, Hornhaut, Regenbogenhaut, Linse) als auch im Hinterabschnitt (Netzhaut, Sehnerv) können Befunde dokumentiert und nachverfolgt werden.",
+    "active": true,
+    "order": 8
+  },
+  {
+    "id": "9",
+    "title": "Nyktometer",
+    "subtitle": "Dämmerungssehen & Blendempfindlichkeit",
+    "image": "/uploads/0174117e-30a1-46a4-8022-7bd9c6006fe4.jpg",
+    "imageAlt": "Nyktometer Gerät",
+    "description": "Das Nyktometer dient zur Messung des Dämmerungssehens und der Blendempfindlichkeit.",
+    "active": true,
+    "order": 9
+  }
+]
