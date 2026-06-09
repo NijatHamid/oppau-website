@@ -3,15 +3,45 @@ import path from 'path'
 
 const dataDir = path.join(process.cwd(), 'data')
 
+// Vercel-də data/*.json faylları bəzən runtime-da diskdə görünmür.
+// Ona görə fallback olaraq JSON-ları build zamanı bundle-a daxil edirik.
+const bundledData: Record<string, unknown> = {
+  'services.json': require('../data/services.json'),
+  'hours.json': require('../data/hours.json'),
+  'contact.json': require('../data/contact.json'),
+  'hero.json': require('../data/hero.json'),
+  'about.json': require('../data/about.json'),
+  'seo.json': require('../data/seo.json'),
+  'legal.json': require('../data/legal.json'),
+}
+
 function readJson<T>(filename: string): T {
   const filePath = path.join(dataDir, filename)
-  const raw = fs.readFileSync(filePath, 'utf-8')
-  return JSON.parse(raw) as T
+
+  try {
+    const raw = fs.readFileSync(filePath, 'utf-8')
+    return JSON.parse(raw) as T
+  } catch (error) {
+    const fallback = bundledData[filename]
+
+    if (!fallback) {
+      throw error
+    }
+
+    return fallback as T
+  }
 }
 
 function writeJson(filename: string, data: unknown): void {
   const filePath = path.join(dataDir, filename)
-  fs.writeFileSync(filePath, JSON.stringify(data, null, 2), 'utf-8')
+
+  try {
+    fs.writeFileSync(filePath, JSON.stringify(data, null, 2), 'utf-8')
+  } catch (error) {
+    // Vercel serverless mühitində fayla yazmaq qalıcı deyil və bəzən mümkün olmur.
+    // Demo üçün yazma xətasını serveri çökdürmədən saxlayırıq.
+    console.error(`Failed to write ${filename}`, error)
+  }
 }
 
 export function getServices() {
